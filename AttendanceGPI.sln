@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceGpi.Core", "AttendanceGpi.Core\AttendanceGpi.Core.csproj", "{B44D51B2-72DB-4F63-BE67-6659E95936E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttendanceGpi.Web", "AttendanceGpi.Web\AttendanceGpi.Web.csproj", "{56B507E1-EDD6-4C30-A89E-6CF9D3CE825D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B44D51B2-72DB-4F63-BE67-6659E95936E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B44D51B2-72DB-4F63-BE67-6659E95936E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B44D51B2-72DB-4F63-BE67-6659E95936E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B44D51B2-72DB-4F63-BE67-6659E95936E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B507E1-EDD6-4C30-A89E-6CF9D3CE825D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B507E1-EDD6-4C30-A89E-6CF9D3CE825D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B507E1-EDD6-4C30-A89E-6CF9D3CE825D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B507E1-EDD6-4C30-A89E-6CF9D3CE825D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

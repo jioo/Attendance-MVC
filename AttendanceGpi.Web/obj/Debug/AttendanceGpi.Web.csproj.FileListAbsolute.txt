@@ -1,0 +1,178 @@
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\csc.exe
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\System.Collections.Immutable.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\vbc.exe
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\VBCSCompiler.exe
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\VBCSCompiler.exe.config
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Web.dll.config
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Web.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Web.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Antlr3.Runtime.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Core.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\EntityFramework.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\EntityFramework.SqlServer.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Google.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Newtonsoft.Json.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Owin.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\StructureMap.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Helpers.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Mvc.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Optimization.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Razor.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.Deployment.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.Razor.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\WebActivator.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\WebGrease.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Core.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\StructureMap.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\StructureMap.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Helpers.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Mvc.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Optimization.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Razor.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.Deployment.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.Razor.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Antlr3.Runtime.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Newtonsoft.Json.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\EntityFramework.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\EntityFramework.SqlServer.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Google.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\obj\Debug\AttendanceGpi.Web.csprojResolveAssemblyReference.cache
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\obj\Debug\AttendanceGpi.Web.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\obj\Debug\AttendanceGpi.Web.pdb
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.abstractions.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.assert.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.core.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.execution.desktop.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.abstractions.xml
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.assert.xml
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.core.xml
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.execution.desktop.xml
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\itextsharp.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\itextsharp.xmlworker.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\itextsharp.xml
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\RazorPDF.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Web\bin\RazorPDF.Legacy.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\csc.exe
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\vbc.exe
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Web.dll.config
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Web.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Web.pdb
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Antlr3.Runtime.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Core.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\EntityFramework.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\itextsharp.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\itextsharp.xmlworker.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Newtonsoft.Json.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Owin.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\RazorPDF.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\RazorPDF.Legacy.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\StructureMap.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Helpers.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Mvc.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Optimization.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Razor.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\WebActivator.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\WebGrease.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.abstractions.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.assert.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.core.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.execution.desktop.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Core.pdb
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\AttendanceGpi.Core.dll.config
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\itextsharp.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\StructureMap.pdb
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\StructureMap.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Helpers.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Mvc.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Optimization.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.Razor.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Antlr3.Runtime.pdb
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.abstractions.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.assert.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.core.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\xunit.execution.desktop.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Newtonsoft.Json.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\EntityFramework.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\obj\Debug\AttendanceGpi.Web.csprojResolveAssemblyReference.cache
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\obj\Debug\AttendanceGpi.Web.csproj.CoreCompileInputs.cache
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\obj\Debug\AttendanceGpi.Web.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Web\obj\Debug\AttendanceGpi.Web.pdb

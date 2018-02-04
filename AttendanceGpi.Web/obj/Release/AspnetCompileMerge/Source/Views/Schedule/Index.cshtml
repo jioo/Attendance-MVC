@@ -1,0 +1,49 @@
+﻿@model IEnumerable<AttendanceGpi.Core.Schedule>
+@{
+    ViewBag.Title = "Schedules";
+}
+
+<div class="row">
+    <div class="col-xs-12 body-row-1">
+        <div class="col-xs-6 title-adjst">
+            <h2 class="sub-title">List of Schedules</h2>
+        </div>
+        <div class="col-xs-6 text-right btn-create-adjst">
+            <a class="btn btn-primary" href="/Schedule/Create">
+                <span class="glyphicon glyphicon-plus"></span> Create
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-default panel-border-top">
+    <div class="panel-body panel-body-adjst">
+        <div class="col-xs-12 body-row-2">
+            <div class="table-responsive table-striped">
+                <table class="table" width="100%" id="DefaultDataTable">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(m => m.SchedName)</th>
+                            <th>@Html.DisplayNameFor(m => m.SchedStart)</th>
+                            <th>@Html.DisplayNameFor(m => m.SchedEnd)</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.SchedName</td>
+                                <td>@item.SchedStart</td>
+                                <td>@item.SchedEnd</td>
+                                <td>
+                                    @Html.ActionLink("Edit", "Edit", "Schedule", new { @id = item.SchedId }, htmlAttributes: new { @class = "btn btn-sm btn-primary" })
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

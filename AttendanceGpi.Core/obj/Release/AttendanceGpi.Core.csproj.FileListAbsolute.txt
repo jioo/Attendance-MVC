@@ -1,0 +1,10 @@
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Release\AttendanceGpi.Core.dll.config
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Release\AttendanceGpi.Core.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Release\AttendanceGpi.Core.pdb
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Release\EntityFramework.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Release\EntityFramework.xml
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Release\AttendanceGpi.Core.csprojResolveAssemblyReference.cache
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Release\AttendanceGpi.Core.dll
+C:\Users\trainee\Documents\Visual Studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Release\AttendanceGpi.Core.pdb

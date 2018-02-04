@@ -1,0 +1,22 @@
+﻿@model IEnumerable<AttendanceGpi.Web.ViewModel.AdminLogViewModel>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.SchedName)</th>
+            <th>@Html.DisplayNameFor(m => m.TimeIn)</th>
+            <th>@Html.DisplayNameFor(m => m.TimeOut)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.SchedName</td>
+                <td><p class="@item.TimeInStyle">@item.TimeIn</p></td>
+                <td><p class="@item.TimeOutStyle">@item.TimeOut</p></td>
+            </tr>
+        }
+    </tbody>
+</table>

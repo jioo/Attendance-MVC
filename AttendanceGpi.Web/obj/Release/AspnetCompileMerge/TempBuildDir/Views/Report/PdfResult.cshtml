@@ -1,0 +1,63 @@
+﻿@model IEnumerable<AttendanceGpi.Web.ViewModel.AdminLogViewModel>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result</title>
+    <style>
+        .text-danger {
+            color: #a94442;
+        }
+        .text-primary {
+            color: #337ab7;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        table, td, th {
+            border: 1px solid #808080;
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <b>Employee:  @Model.First().Name</b> <br />
+    <b stlye="position='right';">@Model.First().DateFrom ~ @Model.First().DateTo</b>
+
+    <table class="table" width="100%">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(m => m.SchedName)</th>
+                <th>@Html.DisplayNameFor(m => m.TimeIn)</th>
+                <th>@Html.DisplayNameFor(m => m.TimeOut)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+
+                <tr>
+                    <td>@item.SchedName</td>
+                    <td>
+                        <p class="@item.TimeInStyle">
+                            @item.TimeIn
+                        </p>
+                    </td>
+                    <td>
+                        <p class="@item.TimeOutStyle">
+                            @item.TimeOut
+                        </p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

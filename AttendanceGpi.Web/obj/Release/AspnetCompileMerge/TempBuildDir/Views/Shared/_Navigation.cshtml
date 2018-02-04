@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNet.Identity
+@using AttendanceGpi.Web._Consolidator
+<nav class="navbar  navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="
+                   @if (User.IsInRole("Admin"))
+                   {
+                       @: /Admin
+                   }
+                   else
+                   {
+                       @: /EmployeeAccount
+                   }
+                   "><img src="~/Images/logo.png" class="img-logo" alt="" width="150px" /></a>
+
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            @if (User.IsInRole("Admin"))
+            {
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Employees", "Index", "Employee")</li>
+                    <li>@Html.ActionLink("Schedules", "Index", "Schedule")</li>
+                    <li>@Html.ActionLink("Reports", "Index", "Report")</li>
+                </ul>
+            }
+            else
+            {
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Update Information", "Edit", "EmployeeAccount")</li>
+                </ul>
+            }
+
+            @using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+            {
+                @Html.AntiForgeryToken()
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+                    </li>
+                
+
+                    <li>
+                        <a href="javascript:document.getElementById('logoutForm').submit()"><span class="glyphicon glyphicon-log-in"></span> Log off</a>
+                    </li>
+                </ul>
+            }
+
+        </div>
+    </div>
+</nav>

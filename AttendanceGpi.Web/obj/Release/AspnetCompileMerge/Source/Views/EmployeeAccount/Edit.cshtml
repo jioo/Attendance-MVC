@@ -1,0 +1,61 @@
+﻿@model AttendanceGpi.Web.ViewModel.EmployeeEditViewModel
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="container sub-title-container">
+    <h2 class="sub-title">Personal Information</h2>
+
+    @using (Html.BeginForm("Edit", "EmployeeAccount", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", htmlAttributes: new { @class = "text-danger" })
+
+        @Html.HiddenFor(m => m.Id)
+        @Html.HiddenFor(m => m.SchedId)
+
+        <div class="div-adjust col-xs-12">
+            <div class="col-sm-4 col-xs-12">
+                <div class="border-img">
+                    <img id="EmployeePicture" src="~/Images/@Model.Picture" class="img-style" data-rjs="3" alt="">
+                </div>
+                <div class="col-xs-12">
+                    <div class="text-center">
+                        <span class="btn btn-default btn-file">
+                            <i class="fa fa-folder-open" aria-hidden="true"></i> @Html.TextBoxFor(m => m.Picture, new { type = "file", onchange = "ShowPreview(this);", accept = "image/*" })
+                        </span>
+                        <button type="button" onclick="ResetPicture()" class="btn btn-danger btn-close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        @Html.HiddenFor(m => m.Picture)
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-xs-12 col-sm-push-1 em-inputs">
+                <div class="form-group col-sm-5 col-xs-12 txt-id">
+                    @Html.LabelFor(m => m.UserName, htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(m => m.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(m => m.UserName, "", htmlAttributes: new { @class = "text-danger" })
+                </div>
+                <div class="form-group col-sm-7 col-xs-12 txt-name">
+                    @Html.LabelFor(m => m.Name, htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(m => m.Name, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(m => m.Name, "", htmlAttributes: new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Position, htmlAttributes: new { @class = "control-label" })
+                    @Html.EditorFor(m => m.Position, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(m => m.Position, "", htmlAttributes: new { @class = "text-danger" })
+                </div>
+                <div class="form-group text-right action-btn">
+                    <button type="submit" class="btn btn-default">Update</button>
+                    <a href="/EmployeeAccount" class="btn btn-danger">Cancel</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts{
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+

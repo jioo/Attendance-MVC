@@ -1,0 +1,157 @@
+﻿@model AttendanceGpi.Web.Models.LoginViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+                                 
+<style>
+    .error{
+        display: none !important;
+    }
+</style>
+
+<div id="particles-js">
+    <div class="row text-center system-title">
+        <h2>ATTENDANCE MONITORING SYSTEM</h2>
+        <h5>POWERED BY:</h5>
+        <a href="/Account/Login"><img src="/Images/logo.png" alt=""></a>
+    </div>
+    <div class="container login-page">
+
+        <div class="col-sm-6 body-1-container">
+            <div class="body-1">
+                <div class="row">
+                    <div class="col-xs-6 login-text">
+                        <h3>LOGIN</h3>
+                    </div>
+                    <div class="col-xs-6">
+                        <div id="current-time" class="time"></div>
+                    </div>
+                </div>
+                <form id="AttendanceForm">
+                    <div class="inputs">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                @Html.EditorFor(m => m.UserName, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "ID" } })
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                @Html.EditorFor(m => m.Password, new { htmlAttributes = new { @class = "form-control input-md", @placeholder = "Password" } })
+                            </div>
+                        </div>
+
+                        <div class="buttons">
+                            <button type="submit" class="btn btn-success btn-md">Login</button>
+                            <button type="button" class="btn btn-default btn-md" onclick="ClearFields()">Cancel</button>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+        <div id="Info">
+            @{ Html.RenderAction("LogInfo", "Home", new { logId = 1 }); }
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/particle")
+    @Scripts.Render("~/Scripts/jquery.validate.js")
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#AttendanceForm").validate({
+                rules: {
+                    UserName: {
+                        required: true
+                    },
+                    Password: {
+                        required: true
+                    }
+                },
+                highlight: function (element) {
+                    $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                },
+                success: function (element) {
+                    element.closest('.form-group').removeClass('has-error').addClass('has-success');
+                },
+                submitHandler: function (form) {
+                    Login(); //Ajax Login 
+                    return false;  
+                }
+            });
+        });
+
+        $("#UserName").focus();
+        
+
+        $("#UserName").keypress(function (e) {
+            //On Enter key
+            if (e.which == 13) {
+                $("#Password").focus();
+            }
+        });     
+
+        function Login() {
+            var username = $("#UserName").val();
+            var password = $("#Password").val();
+            $.post("/Home/Index", { cardNo: username, password: password }, function (data) {
+                switch (data.response) {
+                    case 'Success':
+                        AjaxLoadInfo(data.logId);
+                        toastr.success("Success!");
+                        AjaxClearInfo(); //Reset Info after 5 seconds.
+                        ClearFields();
+
+                        if (data.isUserLogged == null) {
+                            new Audio("../Files/welcome.mp3").play();
+                        } else {
+                            new Audio("../Files/goodbye.mp3").play();
+                        }
+                        
+                        break;
+                    case 'Locked':
+                        toastr.error("Account is locked.");
+                        break;
+                    default:
+                        toastr.error("Invalid Card # / Password.");
+                        break;
+                }
+            });
+        }
+
+        function AjaxLoadInfo(logId) {
+            $("#Info").load("/Home/LogInfo/?logId=" + logId);
+        }
+
+        var timer;
+        function AjaxClearInfo() {
+            window.clearTimeout(timer);
+            timer = window.setTimeout(function () { AjaxLoadInfo(1); }, 10000);
+        }
+
+        function ClearFields() {
+            var username = $("#UserName");
+            var password = $("#Password");
+            username.val('');
+            username.closest('.form-group').removeClass('has-error').removeClass('has-success');
+            username.focus();
+
+            password.val('');
+            password.closest('.form-group').removeClass('has-error').removeClass('has-success');
+        }
+
+        toastr.options = {
+            "newestOnTop": true,
+            "progressBar": true,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "3500"
+        };
+    </script>
+}

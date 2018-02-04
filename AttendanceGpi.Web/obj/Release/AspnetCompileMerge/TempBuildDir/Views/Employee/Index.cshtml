@@ -1,0 +1,190 @@
+﻿@model IEnumerable<AttendanceGpi.Core.Employee>
+@{
+    ViewBag.Title = "Employee";
+}
+
+<style>
+    .error {
+        color: #a94442;
+    }
+</style>
+
+<div class="row">
+    <div class="col-xs-12 body-row-1">
+        <div class="col-xs-6 title-adjst">
+            <h2 class="sub-title">List of Employees</h2>
+        </div>
+        <div class="col-xs-6 text-right btn-create-adjst">
+            <a class="btn btn-primary" href="/Employee/Create">
+                <span class="glyphicon glyphicon-plus"></span> Create
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="panel panel-default panel-border-top">
+    <div class="panel-body panel-body-adjst">
+        <div class="col-xs-12 body-row-2">
+            <div class="table-responsive table-striped">
+                <table class="table" width="100%" id="DefaultDataTable">
+                    <thead>
+                        <tr>
+                            <th>@Html.DisplayNameFor(m => m.EmployeeInfo.Picture)</th>
+                            <th>@Html.DisplayNameFor(m => m.EmployeeInfo.Name)</th>
+                            <th>@Html.DisplayNameFor(m => m.EmployeeInfo.CardNo)</th>
+                            <th>Shift</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="@if (@item.EmployeeInfo.IsResigned == 1) {
+            @: bg-danger
+            } ">
+                                <td><img src="~/Images/@item.EmployeeInfo.Picture" class="fixed-img img-style" /></td>
+                                <td>@item.EmployeeInfo.Name</td>
+                                <td>@item.EmployeeInfo.CardNo</td>
+                                <td>@item.Schedules.SchedStart - @item.Schedules.SchedEnd</td>
+                                <td>
+                                    @Html.ActionLink("Edit", "Edit", "Employee", new { @id = item.Id }, htmlAttributes: new { @class = "btn btn-primary" })
+                                    <button type="button" onclick="OpenModal('@item.Id', '@item.EmployeeInfo.Name')" class="btn btn-warning"> Change Password</button>
+                                    <button type="button" onclick="ChangeStatus('@item.Id', '@item.EmployeeInfo.CardNo', @item.EmployeeInfo.IsResigned)" class="btn btn-danger">Change Status</button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="Modal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    Change Password
+                </h4>
+            </div>
+            <form id="PasswordForm">
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <input type="hidden" name="UserId" id="UserId" />
+
+                    <div class="form-group">
+                        <label class="control-label">Name: </label>
+                        <input type="text" id="EmpName" class="form-control" disabled />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Password: </label>
+                        <input type="password" class="form-control"
+                               name="NewPassword" id="NewPassword" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Confirm Password: </label>
+                        <input type="password" class="form-control"
+                               name="ConfirmPassword" />
+                    </div>
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default"
+                            data-dismiss="modal">
+                        Close
+                    </button>
+                    <button type="submit" class="btn btn-success">
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    @Scripts.Render("~/Scripts/jquery.validate.js")
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#PasswordForm").validate({
+                rules: {
+                    NewPassword: {
+                        minlength: 6,
+                        required: true
+                    },
+                    ConfirmPassword: {
+                        minlength: 6,
+                        equalTo: "#NewPassword"
+                    }
+                },
+                highlight: function (element) {
+                    $(element).closest('.form-group').removeClass('has-success').addClass('has-error');
+                },
+                success: function (element) {
+                    element.closest('.form-group').removeClass('has-error').addClass('has-success');
+                },
+                submitHandler: function (form) {
+                    ChangePassword();
+                    return false;
+                }
+            });
+        });
+
+        function OpenModal(id, name) {
+            $('#UserId').val(id);
+            $('#EmpName').val(name);
+            DisplayModal();
+        }
+
+        function ChangePassword() {
+            $.post("/Employee/ChangePassword", $('#PasswordForm').serialize(), function (data) {
+                switch (data.response) {
+                    case 'Success':
+                        toastr.success("You have successfully changed " + $('#EmpName').val() + "'s password!");
+                        ClearFields();
+                        $('#Modal').modal('hide');
+                        break;
+                    default:
+                        toastr.error("Unable to update data.");
+                        break;
+                }
+            });
+        }
+
+        function ChangeStatus(id, cardNo, status) {
+            $.post("/Employee/ChangeStatus", { id: id, cardNo: cardNo, status: status }, function (data) {
+                switch (data.response) {
+                    case 'Success':
+                        location.reload();
+                        break;
+                    default:
+                        toastr.error("Card # is already in use.");
+                        break;
+                }
+            });
+        }
+
+        function ClearFields() {
+            var password = $("#NewPassword");
+            var confirmPassword = $("#ConfirmPassword");
+            password.val('');
+            password.closest('.form-group').removeClass('has-error').removeClass('has-success');
+
+            confirmPassword.val('');
+            confirmPassword.closest('.form-group').removeClass('has-error').removeClass('has-success');
+        }
+    </script>
+
+}

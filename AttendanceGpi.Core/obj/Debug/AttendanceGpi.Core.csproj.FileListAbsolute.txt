@@ -1,0 +1,21 @@
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\AttendanceGpi.Core.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\AttendanceGpi.Core.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Debug\AttendanceGpi.Core.csprojResolveAssemblyReference.cache
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Debug\AttendanceGpi.Core.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Debug\AttendanceGpi.Core.pdb
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\AttendanceGpi.Core.dll.config
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\EntityFramework.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\EntityFramework.xml
+c:\users\trainee\documents\visual studio 2015\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\AttendanceGpi.Core.dll.config
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\AttendanceGpi.Core.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\AttendanceGpi.Core.pdb
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\EntityFramework.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\EntityFramework.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Debug\AttendanceGpi.Core.csprojResolveAssemblyReference.cache
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Debug\AttendanceGpi.Core.csproj.CoreCompileInputs.cache
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Debug\AttendanceGpi.Core.dll
+C:\Users\jio quiazon\Documents\Visual Studio 2017\Projects\AttendanceGPI\AttendanceGpi.Core\obj\Debug\AttendanceGpi.Core.pdb
